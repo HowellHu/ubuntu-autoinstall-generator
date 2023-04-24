@@ -121,7 +121,8 @@ tar   \
 --exclude=/home \
 --exclude=/usr/lib/debug \
 --exclude=/var/lib/libvirt \
---exclude=/root --exclude=/swap.img \
+--exclude=/root \
+--exclude=/swap.img \
 --exclude=/etc/netplan \
 -cvpzf backup.tar.gz /
 ```
@@ -133,3 +134,5 @@ The somewhat outdated Ubuntu documentation [here](https://help.ubuntu.com/commun
 
 ### License
 MIT license.
+
+bash ubuntu-autoinstall-generator.sh -u user-data.example -s ubuntu_backup.iso -ed backup.tar.gz -d ubuntu_firewall.iso
