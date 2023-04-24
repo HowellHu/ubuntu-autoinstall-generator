@@ -135,4 +135,5 @@ The somewhat outdated Ubuntu documentation [here](https://help.ubuntu.com/commun
 ### License
 MIT license.
 
+### Usage
 bash ubuntu-autoinstall-generator.sh -u user-data.example -s ubuntu_backup.iso -ed backup.tar.gz -d ubuntu_firewall.iso
